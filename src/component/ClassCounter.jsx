@@ -14,7 +14,7 @@ class ClassCounter extends React.Component {
 
   handleDecrease = () => {
     this.setState({number: this.state.number - 3});
-  }
+  };
 
   render() {
     return (
@@ -31,8 +31,8 @@ class ClassCounter extends React.Component {
          </div>
        </div>
       </>
-    )
-  }
+    );
+  };
 };
 
 export default ClassCounter; 

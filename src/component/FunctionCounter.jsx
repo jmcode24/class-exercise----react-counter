@@ -1,7 +1,7 @@
 import React from 'react';
 
 function FunctionCounter() {
-  let [number, setNumber] = React.useState(24);
+  let [number, setNumber] = React.useState(10);
 
   let handleIncrease = () => {
     setNumber(number + 5);
